@@ -1,0 +1,219 @@
+body{
+    background-color: #93A9D8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    margin: 0;
+    margin-top: 100px;
+    justify-content: center;
+    background-color: #93A9D8;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #93A9D8;
+}
+#build{
+    color: #333;
+    width: 100px;
+    padding-right: 70px;
+    position: flex;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+    display: block;
+    padding: 5px 80px;
+    align-items: center;
+    color: #333;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color .2s, transform .2s;
+}
+nav ul li:hover{
+    color: black;
+    transform: scale(1.05);
+}
+nav ul li a{
+    outline: none;
+    text-decoration: none;
+    color: #333;
+}
+article{
+    background-color: #93A9D8;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    color: white;
+}
+article h2{
+    padding-top: 80px;
+    padding-left: 80px;
+    text-align: justify;
+    color: #333;
+}
+article p{
+    padding-left: 80px;
+    width: 620px;
+    text-align: justify;
+    color: #333;
+}
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 80px;
+}
+#text-right{
+    padding-right: 80px;
+    width: 620px;
+    margin-top: 20px;
+    text-align: justify;
+}
+#title-right{
+    margin: 0;
+    padding-right: 242px;
+    padding-top: 200px;
+}
+#right-list{
+    text-align: justify;
+    float: right;
+    padding-right: 160px;
+    padding-left: 1120px;
+    color: #333;
+}
+#right-list li{
+    padding: auto;
+    margin-top: 20px;
+}
+#article2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+#article2 h1{
+    text-align: center;
+    width: 100%; 
+    margin-bottom: 10px;
+    color: #333;
+}
+#article2 div {
+    background-color: #93A9D8;
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    padding-top: 0px;
+    padding: 20px;
+    transition: background-color .2s, transform .2s;
+}
+#article2 div:hover{
+    border: solid;
+    border-radius: 20px;
+    border-color: #90aff1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+#article2 div h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    padding-top: 5px;
+    padding-left: 20px;
+    text-align: justify;
+}
+#article2 ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+#article2 ul li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #333;
+    padding-top: 5px;
+    padding-left: 20px;
+    text-align: justify;
+}
+#article2 p:last-of-type {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 15px;
+}
+footer {
+    display: flex;
+    flex-direction: row; /* Mantém as divs lado a lado */
+    justify-content: center;
+    align-items: flex-start; /* Alinha verticalmente os itens no topo */
+    font-size: 100px;
+    padding: 20px;
+    background-color: #90aff1;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+    margin-right: 20px; /* Espaço entre #Contact e #rodapé */
+    font-size: 100px;
+}
+
+#bi {
+    font-size: 150px;
+}
+
+#rodapé {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo de rodapé em coluna */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+}
+
+#contatos {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo de contatos em coluna */
+    align-items: flex-start;
+}
+
+footer h2 {
+    font-size: 20px;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    padding-left: 0;
+    padding-top: 0px;
+}
+
+#insta, #face {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+    #article2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #article2 div {
+        width: 90%;
+    }
+}

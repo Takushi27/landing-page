@@ -1,0 +1,11 @@
+Ideias{
+    - Seguro de Imovel
+    - Seguro de vida
+    - Seguro de Automovel
+}
+Ferramentas{
+    - HTML
+    - CSS
+    - Javascript
+    - Figma
+}
